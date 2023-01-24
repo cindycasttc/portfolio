@@ -9,6 +9,7 @@ body {
 main {
   max-width: 800px;
   margin: 0 auto;
+  flex-direction: column;
 }
 
 h1 {
@@ -55,4 +56,8 @@ h1 {
 
 .forecast-container p {
   margin-bottom: 10px;
+}
+
+img {
+  width: unset;
 }
