@@ -1,0 +1,24 @@
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+div {
+  text-align: unset;
+}
+
+label {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+}
+
+main section div:nth-child(4) {
+  min-width: 130px;
+}
+
+dd {
+  margin: 0px 0px 20px 0px;
+}
